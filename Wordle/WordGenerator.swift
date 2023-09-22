@@ -15,7 +15,14 @@ class WordGenerator {
   static let possibleWords = ["ABCDE"]
   static func generateRandomWord() -> String? {
     // START YOUR CODE HERE
-    return possibleWords.first
+      guard !possibleWords.isEmpty else {
+             return nil
+         }
+      if let randomWord = possibleWords.randomElement() {
+              return randomWord
+          } else {
+              return nil
+          }
     // END YOUR CODE HERE
   }
 }
