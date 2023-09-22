@@ -6,9 +6,10 @@ This is the starter project for iOS 101 Project 1 - Wordle Pt. 1
 
 Submitted by: Samira Kazma Masri
 
-Wordle is an app that takes in a string
+Wordle is an app that takes in 6 different strings and players have these
+attempts to guess the hidden word.
 
-Time spent: 6 hours spent in total
+Time spent: 7 hours spent in total
 
 ## Required Features
 
@@ -39,7 +40,7 @@ The following **additional** features are implemented:
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Some challenges I had encountered was trying to apply the set style method and applying the .initial style. I also had to look through the documentation numerous times to understand the components of the wordle app. It was a great learning experience however, and I enjoyed working through these challenges. 
 
 ## License
 
